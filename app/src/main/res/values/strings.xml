@@ -1,0 +1,30 @@
+
+<resources>
+    <string name="app_name">Solitaire</string>
+
+    <string name="helpOn">Help On</string>
+    <string name="helpOff">Help Off</string>
+
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="game">Game</string>
+    <string name="undo">Undo</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="restart">Restart</string>
+    <string name="solution">Solution</string>
+    <string name="help">Help</string>
+    <string name="reset">Reset</string>
+    <string name="loadGameTitle">Load Game</string>
+
+    <!-- Dialog Boxes Standard Button Text -->
+    <string name="DialogOK">OK</string>
+    <string name="DialogCancel">Cancel</string>
+    <string name="DialogNo">No</string>
+    <string name="DialogYes">Yes</string>
+
+
+    <string name="sampleTitle">Title</string>
+    <string name="sampleText">Sample text blah....</string>
+
+</resources>

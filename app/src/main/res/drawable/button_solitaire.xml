@@ -17,18 +17,24 @@
   -->
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:state_enabled="false"
-        android:drawable="@mipmap/bm_solitaire_button_down" />
-    <item
-    	android:state_pressed="true"
-    	android:state_enabled="true"
-        android:drawable="@mipmap/bm_solitaire_button_down" />
-    <item
-    	android:state_focused="true"
-    	android:state_enabled="true"
-        android:drawable="@mipmap/bm_solitaire_button_up" />
-    <item
-    	android:state_enabled="true"
-        android:drawable="@mipmap/bm_solitaire_button_up" />
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp"/>
+            <gradient android:centerColor="#8A8988" android:endColor="#636362" android:startColor="#535241" android:type="linear"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp"/>
+            <gradient android:centerColor="#2D7C7C" android:endColor="#8181BD" android:startColor="#2040DF" android:type="linear"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <gradient android:centerColor="#ED8504" android:endColor="#736D07" android:startColor="#D8D376" android:type="linear" />
+            <stroke android:width="2px" android:color="#000"/>
+        </shape>
+    </item>
 </selector>

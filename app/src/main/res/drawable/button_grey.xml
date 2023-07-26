@@ -17,18 +17,43 @@
   -->
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:state_enabled="false"
-        android:drawable="@drawable/button_grey_disabled" />
-    <item
-    	android:state_pressed="true"
-    	android:state_enabled="true"
-        android:drawable="@drawable/button_grey_pressed" />
-    <item
-    	android:state_focused="true"
-    	android:state_enabled="true"
-        android:drawable="@drawable/button_grey_focused" />
-    <item
-    	android:state_enabled="true"
-        android:drawable="@drawable/button_grey_enabled" />
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+
+            <gradient android:angle="90" android:centerColor="#A4A4A4" android:endColor="#787474" android:startColor="#8A8787" />
+
+            <padding android:bottom="7dp" android:left="7dp" android:right="7dp" android:top="7dp" />
+
+            <stroke android:width="2px" android:color="#060606" />
+
+            <corners android:radius="8dp" />
+
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+
+            <gradient android:angle="90" android:centerColor="#43AF2A" android:endColor="#3FAAA6" android:startColor="#297A74" />
+
+            <padding android:bottom="7dp" android:left="7dp" android:right="7dp" android:top="7dp" />
+
+            <stroke android:width="2px" android:color="#0054FF" />
+
+            <corners android:radius="8dp" />
+
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle">
+
+            <gradient android:angle="90" android:centerColor="#405CE3" android:endColor="#49C3BF" android:startColor="#31938B" />
+
+            <padding android:bottom="7dp" android:left="7dp" android:right="7dp" android:top="7dp" />
+
+            <stroke android:width="2px" android:color="#0054FF" />
+
+            <corners android:radius="8dp" />
+
+        </shape>
+    </item>
 </selector>
